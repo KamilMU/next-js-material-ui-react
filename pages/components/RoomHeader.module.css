@@ -1,0 +1,18 @@
+.room {
+    padding-top: 17px;
+    color: #FFF;
+    font-style: normal;
+  }
+  
+  .room__name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .room__routes {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  

@@ -1,0 +1,55 @@
+.header {
+    width: 100%;
+    position: relative;
+    height: 60px;
+  }
+
+  .headerContent {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      display: flex;
+      align-items: center;
+      padding: 20px 23px;
+      justify-content: space-between;
+  }
+
+  @media (max-width: 760px) {
+    .headerContent {
+        width: 30%;
+    }
+
+    .headerContent__name {
+        display: none;
+    }
+
+  }
+
+
+  @media (max-width: 468px) {
+    .headerContent__profilePic div{
+      width: 24px;
+      height: 24px;
+    }
+
+    .headerContent__notification div {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  @media (min-width: 468px) {
+    .headerContent {
+        width: 24%;
+    }
+
+    .headerContent__profilePic div{
+      width: 40px;
+      height: 40px;
+    }
+
+    .headerContent__notification div {
+      width: 40px;
+      height: 40px;
+    }
+  }

@@ -1,0 +1,47 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 31px;
+  color: white;
+  padding: 24px 30px;
+  background: -webkit-linear-gradient(right, #1A78C2 0%, #1A78C2 101.06%);
+  background: linear-gradient(270deg, #1A78C2 0%, #1A78C2 101.06%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+  
+.userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.userInfo__left {
+  display: flex;
+  align-items: center;
+}
+
+.userInfo__rigth {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 596px) {
+  .userInfo__name {
+    margin-left: 10px;
+  }
+
+  .btn {
+    display: none;
+  }
+}
+
+@media (min-width: 596px) {
+  .userInfo__name {
+    margin-left: 42px;
+  }
+}
+
